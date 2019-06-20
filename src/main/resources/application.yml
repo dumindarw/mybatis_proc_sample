@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    url: jdbc:mariadb://192.168.1.177:3306/medisoft_dw
+    username: medisoftuser
+    password: medisoft789
+    driver: org.mariadb.jdbc.Driver
+
+mybatis:
+  typeAliasesPackage: com.duminda.mybatis
